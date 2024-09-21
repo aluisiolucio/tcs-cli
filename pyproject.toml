@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tcs-cli"
-version = "0.1.0"
+version = "1.0.0"
 description = "Tools Cheat Sheet Command Line"
 authors = ["Aluisio Lucio <aluisio18lucio@gmail.com>"]
 readme = "README.md"

@@ -4,7 +4,7 @@ from typing import List
 
 class Strategy(ABC):
     @abstractmethod
-    def do_commands(self, arg: str) -> List[dict]:
+    def do_commands(self, arg: str = None) -> List[dict]:
         pass
 
 
@@ -20,6 +20,6 @@ class Context():
     def strategy(self, strategy: Strategy) -> None:
         self._strategy = strategy
 
-    def commands(self, arg: str) -> None:
+    def commands(self, arg: str = None) -> None:
         return self._strategy.do_commands(arg)
 
