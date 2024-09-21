@@ -26,6 +26,8 @@ Por exemplo, para acessar o Cheat Sheet do Docker:
 ```bash
 ./tcs-cli docker
 
+# ou
+
 ./tcs-cli docker containers
 ```
 
